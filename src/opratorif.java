@@ -17,7 +17,7 @@ public class opratorif {
                 System.out.println("пятница");
             if (a == 6)
                 System.out.println("суббота");
-            if (a == 3)
+            if (a == 7)
                 System.out.println("воскресенье");
 
             if (args.length > 0) {
@@ -49,3 +49,4 @@ public class opratorif {
 
 
                         }
+                }}}}  }
