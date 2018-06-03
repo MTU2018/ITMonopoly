@@ -11,5 +11,15 @@ public class d {
             msg += " " + x;
         }
 
-        System.out.println(msg);
+
+        int n1 = 0;
+        int n2 = 1;
+        int n = n1+n2;
+
+        while (n<1000){
+            System.out.printf("%d ", n);
+            n1 = n2;
+            n2 = n;
+            n = n1+n2;
+        }
 }}
